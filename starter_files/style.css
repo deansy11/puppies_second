@@ -1,0 +1,211 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 90%;
+    line-height: 1.6;
+    background-image: url(img/bg.jpg);
+    margin-left: 0;
+    margin-right: 0;
+}
+
+body header{
+    background-color: #ff8523;
+    background-size: cover
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h2 {
+    color: #1fabe5;
+    font-weight: 600
+}
+
+h3 {
+    color: #1fabe5;
+    font-weight: 600;
+}
+
+ul {
+    font-weight: 600;
+    border-bottom: 3px solid;
+    border-color: #ddd;
+    color: #555;
+    font-size: 12px;
+    padding-top: 0px;
+}
+
+hr {
+     color: #f00;
+     background: #f00;
+     width: 75%;
+     height: 5px;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+table > thead > tr > td {
+    table-layout: fixed;
+    width:2000px
+    padding: 0.3em 1em;
+    text-decoration: none;
+    border: .5px solid #046c97;
+    background-color: #1fabe5;
+    color: white;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-top: 3px;
+
+}
+
+table tbody > tr > td {
+  table-layout: fixed;
+  padding-left: 8px;
+  padding-right: 10px;
+  text-decoration: none;
+  border: 1px solid #1fabe5;
+  color: #444;
+  font-size: 10px;
+}
+
+table img {
+  width: 40px;
+  padding: 4px;
+}
+
+body > div{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    padding: 20px;
+
+    box-shadow: 0 0 6px #ffd24a;
+}
+.main_navigation a{
+    padding: 0.5em 2em;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding-top: 8px;
+}
+.main_navigation a:hover{
+    color: white;
+    background-color: #D1D67C;
+  }
+
+#logo {
+    text-align: left;
+    color: inherit;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+#page_content a {
+    color: #1fabe5;
+}
+
+#page_content {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+form {
+  background-color: #eee;
+  border-radius: 5px;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-left: 40px;
+  margin-left: 0;
+  margin-right: 0;
+  border-bottom: 3px;
+  border-bottom: 3px solid;
+  border-color: #ddd;
+}
+
+.name {
+  background-color: #ff8523;
+  border-radius: 5px;
+  background-size: cover;
+  padding-top: 18px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: -20px;
+  margin-right: 20px;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.city_container {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+section div > label {
+  font-size: 13px;
+  font-weight: 600;
+  padding-bottom: 20px;
+  padding-left: 17px;
+  padding-right: 7px;
+}
+
+section div input {
+  margin-right: 7px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 150px;
+  height: 10px;
+}
+
+textarea {
+  width: 500px;
+	height: 120px;
+	border: 1px solid #1fabe5;
+	padding: 5px;
+  background-position: center;
+  margin-top: 10px;
+  color: #444;
+}
+
+#submit_button {
+  background-color: #1fabe5;
+  border-radius: 5px;
+  width: 100px;
+  height: 5px;
+  background-size: cover;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  border: 1px solid #1fabe5;
+  text-align: center;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
